@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ── 1. keys ─────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = "8276251614:AAGA-uP_gipiy_QzEnhhj4Ax1CG2DAXf1Pw"
-openai.api_key = "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"  # direct embed (not recommended for prod)
+TELEGRAM_TOKEN = "BOT TOKEN"
+openai.api_key = "OPEN API KEY" # direct embed (not recommended for prod)
 
 # ── 2. command handlers ─────────────────────────────────────────────
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
